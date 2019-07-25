@@ -1,4 +1,5 @@
 deploy:
   override:
     - "ruby ./omg.rb"
-tasks:
+plugins:
+  - sv-rollout
