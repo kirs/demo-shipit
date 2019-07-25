@@ -1,3 +1,4 @@
 deploy:
-  override: ./omg.rb
+  override:
+    - "ruby ./omg.rb"
 tasks:
